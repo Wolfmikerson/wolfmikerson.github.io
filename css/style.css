@@ -373,6 +373,55 @@ body {
   flex: 1 0 auto;
 }
 
+.contactme {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+}
+
+.form {
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.form-description {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ebebff;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.form-element {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  flex: 1;
+  padding: 0 24px 0;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+}
+
+input.form-element {
+  height: 48px;
+  width: 327px;
+}
+
+textarea.form-element {
+  height: 170px;
+  flex: 1 0 auto;
+}
+
+.form-element::placeholder {
+  color: #b3bac5;
+}
+
 .but:enabled {
   background-color: #fff;
   border: 1px solid #7f8cff;
