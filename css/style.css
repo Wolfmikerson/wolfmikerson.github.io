@@ -303,7 +303,7 @@ body {
   margin: 0 1rem 1rem 1rem;
 }
 
-/* 
+/*
 .framework {
   border-bottom: solid;
   border-bottom-color: #000;
@@ -369,8 +369,15 @@ body {
   color: #253858;
 }
 
-.flex-auto {
-  flex: 1 0 auto;
+.footer {
+  background-color: #6070ff;
+  font-style: normal;
+  font-family: Poppins, sans-serif;
+  height: 779px;
+  border-radius: 100px 0 0 0;
+  padding-top: 103px;
+  padding-right: 30px;
+  padding-left: 30px;
 }
 
 .contactme {
@@ -420,6 +427,10 @@ textarea.form-element {
 
 .form-element::placeholder {
   color: #b3bac5;
+}
+
+.flex-auto {
+  flex: 1 0 auto;
 }
 
 .but:enabled {
