@@ -22,8 +22,7 @@ Portfolio: Finish Mobile
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome!
-
+- Abdimulhin Adan
 
 ## Show your support
 
