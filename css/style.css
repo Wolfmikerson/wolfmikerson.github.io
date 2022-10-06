@@ -72,6 +72,7 @@ body {
 .primary-text {
   width: 250px;
   margin-top: 114px;
+  color: #091e42;
 }
 
 .support-text-font {
@@ -516,5 +517,24 @@ textarea.form-element {
 
   .contact {
     margin-right: 140px;
+  }
+
+  .primary-text {
+    width: 920px;
+    height: 122px;
+    font-size: 48px;
+    line-height: 60px;
+    align-items: center;
+    letter-spacing: 0.37px;
+    margin-bottom: 6px;
+  }
+
+  .support-text-headline {
+    width: 920px;
+    height: 98px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
   }
 }
