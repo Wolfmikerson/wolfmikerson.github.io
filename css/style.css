@@ -10,6 +10,12 @@ body {
   padding: 0;
 }
 
+.portfolio,
+.about,
+.contact {
+  display: none;
+}
+
 .default-custom-fonts {
   font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
   font-size: 40px;
@@ -478,4 +484,37 @@ textarea.form-element {
 
 #but-ons:active {
   background-color: #2230d2;
+}
+
+@media (min-width: 600px) {
+  .menu {
+    display: none;
+  }
+
+  .portfolio,
+  .about,
+  .contact {
+    display: flex;
+  }
+
+  .menu-font {
+    text-decoration: none;
+    font-family: Poppins, Georgia, 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+  }
+
+  .logo {
+    flex-grow: 0.9;
+    margin-left: 150px;
+  }
+
+  .contact {
+    margin-right: 140px;
+  }
 }
