@@ -12,7 +12,8 @@ body {
 
 .portfolio,
 .about,
-.contact {
+.contact,
+.desktop {
   display: none;
 }
 
@@ -487,6 +488,8 @@ textarea.form-element {
   background-color: #2230d2;
 }
 
+/* Add Desktop version Styling */
+
 @media (min-width: 768px) {
   .menu {
     display: none;
@@ -538,22 +541,43 @@ textarea.form-element {
     line-height: 28px;
   }
 
-  .image {
+  .desktop {
+    display: grid;
+  }
+
+  .tonicA {
+    display: none;
+  }
+
+  /* .image {
     width: 50%;
   }
 
+  .main-cont-grid {
+
+} */
   .grid-container {
     /* display: -ms-grid; */
     display: grid;
+
     /* 3grid-template-columns: 2fr 2fr; */
+
     /* -ms-grid-template-columns: 2;
     padding: 30px 30px;
     row-gap: 5rem;
     margin-top: 5rem;
     margin-bottom: 5rem; */
-    grid-template-areas: 'img'
-    'img'
-    'img'
-    'img';
+    grid-template-columns: 50% 50%;
+    width: 80%;
+    padding: 0%;
+    margin-left: 10%;
+  }
+
+  .grid-item {
+    border: solid;
+  }
+
+  .grid-item1 {
+    order: 2;
   }
 }
