@@ -18,7 +18,7 @@ body {
 .can-desktop,
 .backdev-desktop,
 .tonic-desktop,
-.para-desktop, 
+.para-desktop,
 .htm-desktop {
   display: none;
 }
@@ -212,6 +212,7 @@ body {
 
 .para {
   margin: 15px;
+
   /* display: flex; */
   position: static;
   width: 312px;
@@ -563,18 +564,17 @@ textarea.form-element {
   .canopyM,
   .backdevM,
   .tonicM,
-  .paraM
-   {
+  .paraM {
     display: none;
-   }
-
-  /* .para, */
-  .para-desktop {
-    width: 93%;
-    align-items: flex-start;
   }
 
-  .can-desktop{
+  /*
+   .para,
+  .para-desktop {
+
+  } */
+
+  .can-desktop {
     display: flex;
     width: 83px;
     margin-right: 0;
@@ -589,7 +589,7 @@ textarea.form-element {
   .tonic-desktop {
     display: flex;
     line-height: 52px;
-    color: #091E42;
+    color: #091e42;
     font-weight: 700;
   }
 
@@ -604,12 +604,15 @@ textarea.form-element {
   .para-desktop {
     display: flex;
     color: #344563;
+    width: 93%;
+    align-items: flex-start;
   }
 
   .htm-desktop {
     display: flex;
     width: 86px;
   }
+
   /*
    .image {
     width: 50%;
@@ -636,7 +639,6 @@ textarea.form-element {
     width: 80%;
     padding: 0%;
     margin-left: 10%;
-
     grid-template-areas:
       "item1 item2"
       "item4 item3"
@@ -685,14 +687,14 @@ textarea.form-element {
   }
 
   .grid-item7 {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
     grid-area: item7;
   }
 
   .grid-item8 {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
     grid-area: item8;
   }
 }
