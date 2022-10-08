@@ -820,13 +820,13 @@ textarea.form-element {
 
   .flex-container-desktop {
     display: flex;
-    border: solid;
+    /* border: solid; */
     flex-direction: row;
   }
 
   .flex-desktop-item {
     width: 50%;
-    border: solid;
+    /* border: solid; */
   }
 
   .flex-desktop-item2 {
@@ -835,6 +835,10 @@ textarea.form-element {
 
   .lang {
     margin-bottom: 60px;
+  }
+
+  .fram-des {
+    margin-bottom: 0;
   }
   .support-text-headline-about {
     width: 600px;
@@ -868,15 +872,27 @@ textarea.form-element {
   .flex-container-lang-item {
     width: 122px;
   }
-  
+
   .list-desktop {
     list-style:;
   }
-  /* 
-.list-desktop
-list-desktop
-  .flex-desktop-item2 {
-    width: 40%;
-    border: solid;
-  } */
+
+  .flex-foot-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .flex-foot-container-item {
+    width: 50%;
+  }
+
+  .form-element {
+    flex: none;
+  }
+  
+  input.form-element {
+  width: 587px;
+}
+
 }
