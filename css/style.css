@@ -504,9 +504,10 @@ textarea.form-element {
   /* 3grid-template-columns: 2fr 2fr; */
 
   padding: 30px 30px;
-  row-gap: 5rem;
+  /* row-gap: repeat(nth-child(even), 5rem); */
   margin-top: 5rem;
   margin-bottom: 5rem;
+  /* border: solid; */
 
   /* grid-template-columns: 50% 50%; */
   grid-template-columns: 1fr;
@@ -516,47 +517,67 @@ textarea.form-element {
   grid-template-areas:
     "item1"
     "item2"
+    "item7"
     "item4"
-    "item3"
     "item5"
     "item6"
+    "item3"
     "item8"
-    "item7";
+    ;
 }
 
 .grid-item1 {
   grid-area: item1;
-  /* grid-row-start: 1; */
   /* grid-row-start: span 2; */
-}
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+ }
 
 .grid-item2 {
   grid-area: item2;
+  margin-bottom: 5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .grid-item4 {
   grid-area: item4;
+  margin-bottom: 5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .grid-item3 {
   grid-area: item3;
-}
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+ }
 
-.grid-item5 {
+ .grid-item5 {
   grid-area: item5;
-}
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+ }
 
 .grid-item6 {
   grid-area: item6;
+  margin-bottom: 5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
 
 .grid-item7 {
   grid-area: item7;
-}
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+ }
 
 .grid-item8 {
   grid-area: item8;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
 }
+
 
 /* Add Desktop version Styling */
 
@@ -716,48 +737,65 @@ textarea.form-element {
   .grid-item1 {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    border-bottom-left-radius: 1rem;
     grid-area: item1;
+    margin-bottom: 5rem;
   }
 
   .grid-item2 {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    border-top-right-radius: 1rem;
     grid-area: item2;
+    margin-bottom: 5rem;
   }
 
   .grid-item4 {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    border-top-left-radius: 1rem;
     grid-area: item4;
+    margin-bottom: 5rem;
   }
 
   .grid-item3 {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 1rem;
     grid-area: item3;
+    margin-bottom: 5rem;
   }
 
   .grid-item5 {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    border-bottom-left-radius: 1rem;
+    border-top-left-radius: 1rem;
     grid-area: item5;
+    margin-bottom: 5rem;
   }
 
   .grid-item6 {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    border-top-right-radius: 1rem;
     grid-area: item6;
+    margin-bottom: 5rem;
   }
 
   .grid-item7 {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    border-bottom-right-radius: 1rem;
     grid-area: item7;
+    margin-bottom: 5rem;
   }
 
   .grid-item8 {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    border-top-left-radius: 1rem;
     grid-area: item8;
+    margin-bottom: 5rem;
   }
 }
