@@ -12,14 +12,17 @@
     <nav class="navbar-contener default-display-flex">
       <div class="logo"><a class="logo-font default-custom-fonts" href="#">My Logo</a></div>
       <div class="menu"><img src="images/menu_icon.png" alt=""></div>
+      <div class="portfolio"><a class="menu-font" href="#">Portfolio</a></div>
+      <div class="about"><a class="menu-font" href="#">About</a></div>
+      <div class="contact"><a class="menu-font" href="#">Contact</a></div>
     </nav>
   </header>
     <!--- Headline Section-->
-    <section class="headline default-display-flex">
+    <section class="headline headline-top default-display-flex">
         <div class="headline-content">
-          <h1 class="default-custom-fonts primary-text">I'm Wolf glad to see you!</h1>
+          <h1 class="default-custom-fonts primary-text">I'm Wolf M. Jacques Glad to see you!</h1>
           <p class="support-text-headline default-custom-fonts support-text-font margin-none">I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
-          <h2 class="support-text-2 default-custom-fonts lets-text-font">LETS CONNECT</h2>
+          <h2 class="support-text-2 default-custom-fonts lets-text-font">LET'S CONNECT</h2>
           <ul class="default-display-flex default-list-style">
             <li class="display-list-item"><a href="https://twitter.com/MikersonWolf" title="Visit my twitter" target="_blank" rel="noopener noreferrer"><img src="images/Twitter.jpeg" alt=""></a></li>
             <li class="display-list-item"><a href="https://www.linkedin.com/in/wolf-m-jacques-27a38612a/" title="Visit my linkedin" target="_blank" rel="noopener noreferrer"><img src="images/linkedn.jpeg" alt=""></a></li>
@@ -30,9 +33,13 @@
         </div>
     </section>
     <!-- Adding the contact cards -->
+    <!-- <div class="main-cont-grid"> -->
     <section class="grid-container">
-      <div class="flex-item">
-        <img class="image" src="images/Portfolio.svg" alt="Tonic">
+      <div class="grid-item grid-item1 flex-item g1">
+        <img class="image tonicA" src="images/Portfolio.svg" alt="Tonic">
+        <img class="image desktop" src="images/desaktop-2.svg" alt="desktop">
+      </div>
+      <div class="grid-item grid-item2 flex-item g1">
         <p class="tonic">Tonic</p>
         <ul class="list-item default-list-style">
           <li class="canopy">CANOPY</li>
@@ -41,7 +48,8 @@
           <li><img class="counter" src="images/Counter.svg" alt="Counter"></li>
           <li class="year">2015</li>
         </ul>
-        <p class="para">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="para paraM">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="para para-desktop">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
         <ul class="list-item tools default-list-style">
           <li class="htm">html</li>
           <li class="css">css</li>
@@ -49,65 +57,88 @@
         </ul>
         <button class="but" type="submit" name="submit">See Project</button>
       </div>
-      <div class="flex-item">
+      <div class="grid-item grid-item7 flex-item">
         <img class="image" src="images/Portfolio2.svg" alt="Tonic">
+      </div>
+      <div class="grid-item grid-item4 flex-item">
         <p class="tonic">Multi-Post Stories</p>
         <ul class="list-item default-list-style">
-          <li class="canopy">CANOPY</li>
+          <li class="canopy canopyM">CANOPY</li>
+          <!-- Add canopy for desktop -->
+          <li class="canopy can-desktop">FACEBOOK</li>
           <li><img class="counter" src="images/Counter.svg" alt="Counter"></li>
-          <li class="backdev">Back End Dev</li>
+          <li class="backdev backdevM">Back End Dev</li>
+          <li class="backdev backdev-desktop">Full Stack Dev</li>
           <li><img class="counter" src="images/Counter.svg" alt="Counter"></li>
           <li class="year">2015</li>
         </ul>
-        <p class="para">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="para paraM">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="para para-desktop">Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.</p>
         <ul class="list-item tools default-list-style">
           <li class="htm">html</li>
+          <li class="htm htm-desktop">Ruby on rails</li>
           <li class="css">css</li>
           <li class="script">javaScript</li>
         </ul>
         <button class="but" type="submit" name="submit">See Project</button>
       </div>
-      <div class="flex-item">
+      <div class="grid-item grid-item3 flex-item">
         <img class="image" src="images/Portfolio3.svg" alt="Tonic">
-        <p class="tonic">Tonic</p>
+      </div>
+      <div class="grid-item grid-item6 flex-item">
+        <p class="tonic tonicM">Tonic</p>
+        <p class="tonic tonic-desktop">Facebook 360</p>
         <ul class="list-item default-list-style">
-          <li class="canopy">CANOPY</li>
+          <li class="canopy canopyM">CANOPY</li>
+          <li class="canopy can-desktop">FACEBOOK</li>
           <li><img class="counter" src="images/Counter.svg" alt="Counter"></li>
-          <li class="backdev">Back End Dev</li>
+          <li class="backdev backdevM">Back End Dev</li>
+          <li class="backdev backdev-desktop">Full stack Dev</li>
           <li><img class="counter" src="images/Counter.svg" alt="Counter"></li>
           <li class="year">2015</li>
         </ul>
-        <p class="para">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="para paraM">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="para para-desktop">Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.</p>
         <ul class="list-item tools default-list-style">
           <li class="htm">html</li>
+          <li class="htm htm-desktop">Ruby on rails</li>
           <li class="css">css</li>
           <li class="script">javaScript</li>
         </ul>
         <button class="but" type="submit" name="submit">See Project</button>
       </div>
-      <div class="flex-item">
-        <img class="image" src="images/Portfolio4.svg" alt="Tonic">
-        <p class="tonic">Multi-Post Stories</p>
+      <div class="grid-item grid-item5 flex-item">
+        <img class="image tonicB" src="images/Portfolio4.svg" alt="Tonic">
+        <img class="image desktop2" src="images/Portfolio.svg" alt="desktop2">
+      </div>
+      <div class="grid-item grid-item8 flex-item">
+        <p class="tonic tonicM">Multi-Post Stories</p>
+        <p class="tonic tonic-desktop">Uber Naviation</p>
         <ul class="list-item default-list-style">
-          <li class="canopy">CANOPY</li>
+          <li class="canopy canopyM">CANOPY</li>
+          <li class="canopy can-desktop uber-width">Uber</li>
           <li><img class="counter" src="images/Counter.svg" alt="Counter"></li>
-          <li class="backdev">Back End Dev</li>
+          <li class="backdev backdevM">Back End Dev</li>
+          <li class="backdev backdev-desktop lead-width">Lead Developer</li>
           <li><img class="counter" src="images/Counter.svg" alt="Counter"></li>
           <li class="year">2015</li>
         </ul>
-        <p class="para">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="para paraM">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
+        <p class="para para-desktop">A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.</p>
         <ul class="list-item tools default-list-style">
           <li class="htm">html</li>
+          <li class="htm htm-desktop">Ruby on rails</li>
           <li class="css">css</li>
           <li class="script">javaScript</li>
         </ul>
         <button class="but" type="submit" name="submit">See Project</button>
       </div>
-    </section>
-    <section class="headline default-display-flex">
-      <div class="headline-content">
-        <h1 class="default-custom-fonts primary-text">About Myself</h1>
-        <p class="support-text-headline default-custom-fonts support-text-font margin-none">Hello I’m a software
+      </section>
+     <!-- About myself section -->
+     <section class="headline about-head default-display-flex flex-container-desktop">
+      <div class="headline about default-display-flex headline-content flex-desktop-item flex-desktop-item1">
+        <h1 class="default-custom-fonts primary-text about-self">About Myself</h1>
+        <p class="support-text-headline support-text-headline-about default-custom-fonts support-text-font margin-none">Hello I’m a software
           developer! I can help you build a product , feature or website Look through some of my work and experience! If
           you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
         <h2 class="support-text-2 default-custom-fonts lets-text-font">LETS CONNECT</h2>
@@ -123,28 +154,30 @@
           <li class="display-list-item"><a href="#" title="Visit my Angellist"><img src="images/Angellist.jpeg"
                 alt=""></a></li>
         </ul>
-        <button class="but default-list-style but1" type="submit" name="submit">Get my resume</button>
-        <ul class="lan ddefault-display-flex default-list-style second-list-tyle">
+        <button class="but default-list-style but1 but-about" type="submit" name="submit">Get my resume</button>
+      </div>
+      <div class="flex-desktop-item flex-desktop-item2">
+        <ul class="lan default-display-flex default-list-style second-list-tyle">
           <li class="lang display-list-item">Languages</li>
           <li class="display-list-item"><img src="images/Down-brace.svg" alt="Lang"></li>
         </ul>
-        <div class="progL">
-          <ul class="pro default-list-style">
+        <div class="progL flex-container-lang">
+          <ul class="pro default-list-style list-desktop flex-container-lang-item">
             <li class="jsi"><img src="images/Ellipse.svg" alt="Jscript"></li>
             <li class="js">JavaScript</li>
           </ul>
-          <ul class="pro default-list-style">
+          <ul class="pro default-list-style flex-container-lang-item">
             <li class="jsi"><img src="images/Htm.svg" alt="Css"></li>
             <li class="js">HTML</li>
           </ul>
-          <ul class="pro default-list-style">
+          <ul class="pro default-list-style flex-container-lang-item">
             <li class="jsi"><img src="images/css_logo.svg" alt="Css"></li>
             <li class="js">CSS</li>
           </ul>
         </div>
         <div class="frame-skills">
           <ul class="lan default-list-style first-list-style">
-            <li class="lang framework">Frameworks</li>
+            <li class="lang framework fram-des">Frameworks</li>
             <li class=""><img src="images/right-brace.svg" alt="Frame"></li>
           </ul>
           <ul class="lan default-list-style first-list-style">
@@ -155,18 +188,18 @@
       </div>
     </section>
   <!--- Footer Section-->
-  <footer class="footer headline default-display-flex">
-    <h2 class="contactme">Contact Me</h2>
-    <p class="form-description">If you have an application you are interested in developing, a feature that you need built or a
+  <footer class="footer headline default-display-flex flex-foot-container">
+    <h2 class="contactme flex-foot-container-item">Contact Me</h2>
+    <p class="form-description flex-foot-container-item">If you have an application you are interested in developing, a feature that you need built or a
       project that needs coding. I’d love to help with it</p>
-    <form class="form default-display-flex" action="https://formspree.io/f/xbjqpynb" method="post">
-      <input class="form-element" type="text" id="name" name="user_name" placeholder="Wolfmikerson" maxlength="30"
+    <form class="form default-display-flex flex-foot-container-item" action="https://formspree.io/f/xbjqpynb" method="post">
+      <input class="form-element form-element1 flex-foot-container-item1" type="text" id="name" name="user_name" placeholder="Wolfmikerson" maxlength="30"
         required>
-      <input class="form-element" type="email" id="mail" name="user_email" placeholder="wolfmikerson@gmail.com"
+      <input class="form-element form-element1 flex-foot-container-item2" type="email" id="mail" name="user_email" placeholder="wolfmikerson@gmail.com"
         required>
       <textarea class="form-element" id="msg" name="user_message" placeholder="Write your message here" maxlength="500"
         required></textarea>
-      <button  id="but-ons" type="submit">Get in touch</button>
+      <button class="but-foot" id="but-ons" type="submit">Get in touch</button>
     </form>
   </footer>
   <!--- End footer section-->
