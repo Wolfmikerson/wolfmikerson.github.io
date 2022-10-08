@@ -811,4 +811,72 @@ textarea.form-element {
     grid-area: item8;
     margin-bottom: 5rem;
   }
+
+  /* about myself section */
+
+  .headline-top {
+    padding-left: 200px;
+  }
+
+  .flex-container-desktop {
+    display: flex;
+    border: solid;
+    flex-direction: row;
+  }
+
+  .flex-desktop-item {
+    width: 50%;
+    border: solid;
+  }
+
+  .flex-desktop-item2 {
+    padding-top: 158px;
+  }
+
+  .lang {
+    margin-bottom: 60px;
+  }
+  .support-text-headline-about {
+    width: 600px;
+    padding-bottom: 30px;
+  }
+
+  .but-about {
+  /* margin: 0;
+  padding: 0; */
+  width: 170px;
+  height: 40px;
+  border: 0;
+  flex-basis: 5%;
+  border-radius: 6px;
+  }
+
+  .about-self {
+    width: 140px;
+  }
+
+  .pro {
+    width: 200px;
+    display: block;
+  }
+
+  .flex-container-lang {
+    display: flex;
+     width: 60%;
+  }
+
+  .flex-container-lang-item {
+    width: 122px;
+  }
+  
+  .list-desktop {
+    list-style:;
+  }
+  /* 
+.list-desktop
+list-desktop
+  .flex-desktop-item2 {
+    width: 40%;
+    border: solid;
+  } */
 }
