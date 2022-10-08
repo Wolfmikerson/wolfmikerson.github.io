@@ -104,13 +104,23 @@ body {
 
 .headline {
   flex-direction: column;
-  align-items: center;
+  /* align-items: center; */
   background-image: url("images/background.png");
-  background-size: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-color: #fff;
   border-bottom-left-radius: 50px;
-  padding-right: 20px;
+  padding: 18px;
+}
+
+.about-head {
+  background-image: none;
+  border-top-right-radius: 4rem;
+  border-bottom-left-radius: 0;
+}
+
+.about {
+  background-image: none;
 }
 
 .display-list-item {
@@ -396,6 +406,8 @@ body {
 }
 
 .contactme {
+  display: flex;
+  justify-content: center;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
@@ -427,6 +439,7 @@ body {
   margin-bottom: 20px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
+  width: 80%;
 }
 
 input.form-element {
