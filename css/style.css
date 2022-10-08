@@ -13,7 +13,13 @@ body {
 .portfolio,
 .about,
 .contact,
-.desktop {
+.desktop,
+.desktop2,
+.can-desktop,
+.backdev-desktop,
+.tonic-desktop,
+.para-desktop, 
+.htm-desktop {
   display: none;
 }
 
@@ -206,9 +212,9 @@ body {
 
 .para {
   margin: 15px;
-  display: flex;
+  /* display: flex; */
   position: static;
-  width: 295px;
+  width: 312px;
   height: 76px;
   left: 0;
   top: 92px;
@@ -221,7 +227,7 @@ body {
 }
 
 .htm {
-  display: flex;
+  /* display: flex; */
   margin-right: 15px;
   position: static;
   width: 29px;
@@ -237,7 +243,7 @@ body {
   background-color: rgb(231, 228, 228);
   color: #6070ff;
   padding: 0.3rem 0.3rem 0.3rem 0.3rem;
-  border-radius: 6px;
+  border-radius: 8px;
 }
 
 .css {
@@ -548,15 +554,62 @@ textarea.form-element {
     margin-left: -50px;
   }
 
-  .tonicA {
-    display: none;
+  .desktop2 {
+    display: grid;
   }
 
-  .para {
+  .tonicA,
+  .tonicB,
+  .canopyM,
+  .backdevM,
+  .tonicM,
+  .paraM
+   {
+    display: none;
+   }
+
+  /* .para, */
+  .para-desktop {
     width: 93%;
     align-items: flex-start;
   }
 
+  .can-desktop{
+    display: flex;
+    width: 83px;
+    margin-right: 0;
+  }
+
+  .backdev-desktop {
+    display: flex;
+    width: 105px;
+    margin-right: 0;
+  }
+
+  .tonic-desktop {
+    display: flex;
+    line-height: 52px;
+    color: #091E42;
+    font-weight: 700;
+  }
+
+  .uber-width {
+    width: 44px;
+  }
+
+  .lead-width {
+    width: 115px;
+  }
+
+  .para-desktop {
+    display: flex;
+    color: #344563;
+  }
+
+  .htm-desktop {
+    display: flex;
+    width: 86px;
+  }
   /*
    .image {
     width: 50%;
@@ -584,9 +637,11 @@ textarea.form-element {
     padding: 0%;
     margin-left: 10%;
 
-    /* grid-template-areas: {
-      'item1 item2'
-    }; */
+    grid-template-areas:
+      "item1 item2"
+      "item4 item3"
+      "item5 item6"
+      "item8 item7";
   }
 
   .grid-item {
@@ -596,40 +651,48 @@ textarea.form-element {
   .grid-item1 {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    grid-area: item1;
   }
 
   .grid-item2 {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
-  }
-
-  .grid-item3 {
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
+    grid-area: item2;
   }
 
   .grid-item4 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    grid-area: item4;
+  }
+
+  .grid-item3 {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    grid-area: item3;
   }
 
   .grid-item5 {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    grid-area: item5;
   }
 
   .grid-item6 {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    grid-area: item6;
   }
 
   .grid-item7 {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
+    grid-area: item7;
   }
 
   .grid-item8 {
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
+    grid-area: item8;
   }
 }
