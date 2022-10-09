@@ -104,6 +104,7 @@ body {
 
 .headline {
   flex-direction: column;
+
   /* align-items: center; */
   background-image: url("images/background.png");
   background-size: 100%;
@@ -126,7 +127,8 @@ body {
 .display-list-item {
   margin-right: 20px;
 }
-/* 
+
+/*
 .grid-container {
   display: -ms-grid;
   display: grid;
@@ -517,16 +519,19 @@ textarea.form-element {
   /* 3grid-template-columns: 2fr 2fr; */
 
   padding: 30px 30px;
+
   /* row-gap: repeat(nth-child(even), 5rem); */
   margin-top: 5rem;
   margin-bottom: 5rem;
+
   /* border: solid; */
 
   /* grid-template-columns: 50% 50%; */
   grid-template-columns: 1fr;
+
   /* width: 80%;
   padding: 0%;
-  margin-left: 10%;*/
+  margin-left: 10%; */
   grid-template-areas:
     "item1"
     "item2"
@@ -535,16 +540,16 @@ textarea.form-element {
     "item5"
     "item6"
     "item3"
-    "item8"
-    ;
+    "item8";
 }
 
 .grid-item1 {
   grid-area: item1;
+
   /* grid-row-start: span 2; */
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
- }
+}
 
 .grid-item2 {
   grid-area: item2;
@@ -564,13 +569,13 @@ textarea.form-element {
   grid-area: item3;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
- }
+}
 
- .grid-item5 {
+.grid-item5 {
   grid-area: item5;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
- }
+}
 
 .grid-item6 {
   grid-area: item6;
@@ -583,7 +588,7 @@ textarea.form-element {
   grid-area: item7;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
- }
+}
 
 .grid-item8 {
   grid-area: item8;
@@ -820,12 +825,14 @@ textarea.form-element {
 
   .flex-container-desktop {
     display: flex;
+
     /* border: solid; */
     flex-direction: row;
   }
 
   .flex-desktop-item {
     width: 50%;
+
     /* border: solid; */
   }
 
@@ -840,19 +847,20 @@ textarea.form-element {
   .fram-des {
     margin-bottom: 0;
   }
+
   .support-text-headline-about {
     width: 600px;
     padding-bottom: 30px;
   }
 
   .but-about {
-  /* margin: 0;
+    /* margin: 0;
   padding: 0; */
-  width: 170px;
-  height: 40px;
-  border: 0;
-  flex-basis: 5%;
-  border-radius: 6px;
+    width: 170px;
+    height: 40px;
+    border: 0;
+    flex-basis: 5%;
+    border-radius: 6px;
   }
 
   .about-self {
@@ -866,7 +874,7 @@ textarea.form-element {
 
   .flex-container-lang {
     display: flex;
-     width: 60%;
+    width: 60%;
   }
 
   .flex-container-lang-item {
@@ -874,7 +882,7 @@ textarea.form-element {
   }
 
   .list-desktop {
-    list-style:;
+    list-style: ;
   }
 
   .flex-foot-container {
@@ -882,7 +890,7 @@ textarea.form-element {
     flex-direction: column;
     align-items: center;
   }
-  
+
   .flex-foot-container-item {
     width: 50%;
   }
@@ -890,9 +898,8 @@ textarea.form-element {
   .form-element {
     flex: none;
   }
-  
-  input.form-element {
-  width: 587px;
-}
 
+  input.form-element {
+    width: 587px;
+  }
 }
