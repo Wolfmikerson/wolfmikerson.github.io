@@ -534,17 +534,17 @@ textarea.form-element {
   border-bottom-left-radius: 0;
 }
 
-.grid-item5 {
-  grid-area: item5;
-  border-bottom-right-radius: 0;
-  border-bottom-left-radius: 0;
-}
-
 .grid-item6 {
   grid-area: item6;
   margin-bottom: 5rem;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.grid-item5 {
+  grid-area: item5;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
 }
 
 .grid-item7 {
