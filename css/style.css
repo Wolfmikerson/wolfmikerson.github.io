@@ -134,7 +134,7 @@ body {
 .flex-item {
   display: flex;
   flex-direction: column;
-  max-width: 96%;
+  max-width: 92%;
   background-color: white;
   justify-content: space-evenly;
   border-radius: 1rem;
@@ -560,5 +560,5 @@ textarea.form-element {
 }
 
 .grid-item {
-  margin-right: 5px;
+  margin-right: 11px;
 }
