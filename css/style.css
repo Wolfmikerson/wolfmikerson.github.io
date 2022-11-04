@@ -3,6 +3,9 @@
 body {
   margin: 0%;
   background-color: #e5e5e5;
+  position: relative;
+  width: 375px;
+  height: 5410px;
 }
 
 .margin-none {
@@ -128,22 +131,10 @@ body {
   margin-right: 20px;
 }
 
-/*
-.grid-container {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-template-columns: auto;
-  grid-template-columns: auto;
-  padding: 30px 30px;
-  row-gap: 5rem;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
-} */
-
 .flex-item {
   display: flex;
   flex-direction: column;
-  max-width: 100%;
+  max-width: 96%;
   background-color: white;
   justify-content: space-evenly;
   border-radius: 1rem;
@@ -330,18 +321,6 @@ body {
   margin: 0 1rem 1rem 1rem;
 }
 
-/*
-.framework {
-  border-bottom: solid;
-  border-bottom-color: #000;
-}
-
-.skills {
-  border-bottom: solid;
-  border-bottom-color: #000;
-
-} */
-
 .second-list-tyle {
   margin-bottom: 0;
 }
@@ -513,25 +492,11 @@ textarea.form-element {
 /* Fix Mobile  */
 
 .grid-container {
-  /* display: -ms-grid; */
   display: grid;
-
-  /* 3grid-template-columns: 2fr 2fr; */
-
-  padding: 30px 30px;
-
-  /* row-gap: repeat(nth-child(even), 5rem); */
+  padding: 14px 16px;
   margin-top: 5rem;
   margin-bottom: 5rem;
-
-  /* border: solid; */
-
-  /* grid-template-columns: 50% 50%; */
   grid-template-columns: 1fr;
-
-  /* width: 80%;
-  padding: 0%;
-  margin-left: 10%; */
   grid-template-areas:
     "item1"
     "item2"
@@ -545,8 +510,6 @@ textarea.form-element {
 
 .grid-item1 {
   grid-area: item1;
-
-  /* grid-row-start: span 2; */
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
@@ -594,4 +557,8 @@ textarea.form-element {
   grid-area: item8;
   border-top-left-radius: 0;
   border-top-right-radius: 0;
+}
+
+.grid-item {
+  margin-right: 5px;
 }
