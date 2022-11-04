@@ -1,4 +1,4 @@
-Portfolio: Finish Mobile
+Portfolio: Desktop Version
 
 
 ![screenshot](https://i.imgur.com/tPMZxHx.png)
