@@ -144,7 +144,7 @@ body {
 .image {
   width: 90%;
   border-radius: 8px;
-  padding-top: 1rem;
+  padding: 1rem;
 }
 
 .tonic {
@@ -572,6 +572,7 @@ textarea.form-element {
     height: 916px;
     left: 0;
     top: 1px;
+    background: #f4f5f7;
   }
 
   .portfolio,
@@ -622,9 +623,6 @@ textarea.form-element {
 
   .desktop {
     display: grid;
-    width: 80%;
-    padding: 0;
-    margin-left: -50px;
   }
 
   .desktop2 {
@@ -747,6 +745,7 @@ textarea.form-element {
     border-bottom-right-radius: 1rem;
     grid-area: item7;
     margin-bottom: 5rem;
+    padding-right: 0;
   }
 
   .grid-item8 {
@@ -837,5 +836,10 @@ textarea.form-element {
 
   #but-ons {
     margin: 0 auto;
+  }
+
+  .flex-item {
+    max-width: 100%;
+    align-items: flex-start;
   }
 }
