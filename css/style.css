@@ -850,4 +850,8 @@ textarea.form-element {
   .down-brace {
     margin-bottom: 60px;
   }
+
+  .skills {
+    margin-bottom: 0;
+  }
 }
