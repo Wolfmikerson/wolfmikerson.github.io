@@ -802,6 +802,8 @@ textarea.form-element {
   .pro {
     width: 200px;
     display: block;
+    margin: 0 0.5rem 2rem 1rem;
+    text-align: left;
   }
 
   .flex-container-lang {
@@ -810,7 +812,7 @@ textarea.form-element {
   }
 
   .flex-container-lang-item {
-    width: 122px;
+    /* width: 122px; */
   }
 
   .list-desktop {
