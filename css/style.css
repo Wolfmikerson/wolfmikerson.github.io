@@ -670,6 +670,7 @@ textarea.form-element {
     color: #344563;
     width: 93%;
     align-items: flex-start;
+    height: 35px;
   }
 
   .htm-desktop {
@@ -841,5 +842,6 @@ textarea.form-element {
   .flex-item {
     max-width: 100%;
     align-items: flex-start;
+    justify-content: stretch;
   }
 }
