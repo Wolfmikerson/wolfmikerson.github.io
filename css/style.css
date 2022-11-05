@@ -566,7 +566,8 @@ textarea.form-element {
   }
 
   body {
-    position: absolute;
+    /* position: absolute; */
+    position: relative;
     width: 1440px;
     height: 916px;
     left: 0px;
