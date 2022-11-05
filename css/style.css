@@ -565,6 +565,14 @@ textarea.form-element {
     display: none;
   }
 
+  body {
+    position: absolute;
+    width: 1440px;
+    height: 916px;
+    left: 0px;
+    top: 1px;
+  }
+
   .portfolio,
   .about,
   .contact {
@@ -631,12 +639,6 @@ textarea.form-element {
     display: none;
   }
 
-  /*
-   .para,
-  .para-desktop {
-
-  } */
-
   .can-desktop {
     display: flex;
     width: 83px;
@@ -676,28 +678,8 @@ textarea.form-element {
     width: 86px;
   }
 
-  /*
-   .image {
-    width: 50%;
-  }
-
-  .main-cont-grid {
-
-} */
-
   .grid-container {
-    /* display: -ms-grid; */
     display: grid;
-
-    /* 3grid-template-columns: 2fr 2fr; */
-
-    /* -ms-grid-template-columns: 2;
-    padding: 30px 30px;
-    row-gap: 5rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem; */
-
-    /* grid-template-columns: 50% 50%; */
     grid-template-columns: 1fr 1fr;
     width: 80%;
     padding: 0%;
@@ -707,10 +689,6 @@ textarea.form-element {
       "item4 item3"
       "item5 item6"
       "item8 item7";
-  }
-
-  .grid-item {
-    /* border: solid; */
   }
 
   .grid-item1 {
@@ -778,23 +756,17 @@ textarea.form-element {
     margin-bottom: 5rem;
   }
 
-  /* about myself section */
-
   .headline-top {
     padding-left: 200px;
   }
 
   .flex-container-desktop {
     display: flex;
-
-    /* border: solid; */
     flex-direction: row;
   }
 
   .flex-desktop-item {
     width: 50%;
-
-    /* border: solid; */
   }
 
   .flex-desktop-item2 {
@@ -815,8 +787,6 @@ textarea.form-element {
   }
 
   .but-about {
-    /* margin: 0;
-  padding: 0; */
     width: 170px;
     height: 40px;
     border: 0;
@@ -861,6 +831,6 @@ textarea.form-element {
   }
 
   input.form-element {
-    width: 587px;
+    width: 97%;
   }
 }
