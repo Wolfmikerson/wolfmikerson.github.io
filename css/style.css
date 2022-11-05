@@ -489,6 +489,9 @@ textarea.form-element {
   background-color: #2230d2;
 }
 
+.image:hover {
+  transform: scale(1.5);
+}
 /* Fix Mobile  */
 
 .grid-container {
