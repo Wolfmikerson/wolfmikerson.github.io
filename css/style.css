@@ -558,6 +558,7 @@ textarea.form-element {
   border-top-left-radius: 0;
   border-top-right-radius: 0;
 }
+
 /* Add Desktop version Styling */
 
 @media (min-width: 768px) {
@@ -566,11 +567,10 @@ textarea.form-element {
   }
 
   body {
-    /* position: absolute; */
     position: relative;
     width: 1440px;
     height: 916px;
-    left: 0px;
+    left: 0;
     top: 1px;
   }
 
@@ -814,7 +814,7 @@ textarea.form-element {
   }
 
   .list-desktop {
-    list-style: ;
+    list-style: none;
   }
 
   .flex-foot-container {
@@ -833,5 +833,9 @@ textarea.form-element {
 
   input.form-element {
     width: 97%;
+  }
+
+  #but-ons {
+    margin: 0 auto;
   }
 }
