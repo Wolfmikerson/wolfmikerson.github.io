@@ -572,7 +572,11 @@ textarea.form-element {
 
   body {
     position: relative;
+<<<<<<< HEAD
     width: 90%;
+=======
+    width: 1200px;
+>>>>>>> deploy
     height: 916px;
     left: 0;
     top: 1px;
@@ -813,10 +817,6 @@ textarea.form-element {
   .flex-container-lang {
     display: flex;
     width: 60%;
-  }
-
-  .flex-container-lang-item {
-    /* width: 122px; */
   }
 
   .list-desktop {
