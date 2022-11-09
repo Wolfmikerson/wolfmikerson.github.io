@@ -572,7 +572,7 @@ textarea.form-element {
 
   body {
     position: relative;
-    width: 90%;
+    /* width: 90%; */
     width: 1200px;
     height: 916px;
     left: 0;
