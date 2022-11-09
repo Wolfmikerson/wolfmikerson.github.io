@@ -500,7 +500,7 @@ textarea.form-element {
   padding: 14px 16px;
   margin-top: 5rem;
   margin-bottom: 5rem;
-  margin-left: 2rem;
+  /* margin-left: 0.5rem; */
   grid-template-columns: 1fr;
   grid-template-areas:
     "item1"
