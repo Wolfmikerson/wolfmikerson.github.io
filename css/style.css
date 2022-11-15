@@ -4,8 +4,9 @@ body {
   margin: 0%;
   background-color: #e5e5e5;
   position: relative;
-  width: 420px;
-  height: 5410px;
+  /* width: 420px; */
+  /* height: 5410px; */
+  overflow-x: hidden;
 }
 
 .margin-none {
@@ -109,8 +110,9 @@ body {
   flex-direction: column;
 
   /* align-items: center; */
-  background-image: url("images/background.png");
-  background-size: 100%;
+  background-image: url("images/");
+  /* background-size: 100%; */
+  background-size: cover;
   background-repeat: no-repeat;
   background-color: #fff;
   border-bottom-left-radius: 50px;
@@ -574,8 +576,8 @@ textarea.form-element {
   body {
     position: relative;
     /* width: 90%; */
-    width: 1200px;
-    height: 916px;
+    /* width: 1440px; */
+    /* height: 916px; */
     left: 0;
     top: 1px;
     background: #f4f5f7;
