@@ -4,29 +4,28 @@
     <meta charset="UTF-8">
     <title>Wolf's Professional Portfolio, Desktop Version</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="script.js">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
     <!-- Header Section-->
   <header>
-    <nav class="navbar-contener default-display-flex">
+    <nav class="navbar-contener default-display-flex" id="mobile-menu">
       <div class="logo"><a class="logo-font default-custom-fonts" href="#">My Logo</a></div>
-      <div class="menu" id="#mobile-menu"><img src="images/menu_icon.png" alt=""></div>
-      <div class="portfolio"><a class="menu-font" href="#">Portfolio</a></div>
-      <div class="about"><a class="menu-font" href="#">About</a></div>
-      <div class="contact"><a class="menu-font" href="#">Contact</a></div>
+      <!-- <div class="menu"><img src="images/menu_icon.png" alt="" onclick="myFunction()"></div> -->
+      <a href="javascript:void(0);" class="menu icon" onclick="display_menu()">
+        <i class="fa fa-bars"></i>
+        </a>
+        <a href="javascript:void(0);" class="closed icon" onclick="hide_menu()">
+          <i class="fa fa-close"></i>
+          </a>
+      <div class="portfolio"><a class="menu-font" href="#Portfolio">Portfolio</a></div>
+      <div class="about"><a class="menu-font" href="#About">About</a></div>
+      <div class="contact"><a class="menu-font" href="#Contact">Contact</a></div>
     </nav>
-    <!-- <nav class="navbar-contener-m default-display-flex-m">
-      <div class="menu-m"><img src="/images/Close_P.svg" alt="" onclick="close_mobilemenu()"></div>
-      <div class="portfolio-m"><a class="menu-font-m" href="#">Portfolio</a></div>
-      <div class="about-m"><a class="menu-font-m" href="#">About</a></div>
-      <div class="contact-m"><a class="menu-font-m" href="#">Contact</a></div>
-    </nav> -->
   </header>
     <!--- Headline Section-->
     <section class="headline headline-top default-display-flex">
-        <div class="headline-content">
           <h1 class="default-custom-fonts primary-text">I'm Wolf M. Jacques Glad to see you!</h1>
           <p class="support-text-headline default-custom-fonts support-text-font margin-none">I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don’t hestiate to contact me.</p>
           <h2 class="support-text-2 default-custom-fonts lets-text-font">LET'S CONNECT</h2>
@@ -37,12 +36,10 @@
             <li class="display-list-item"><a href="https://github.com/Wolfmikerson" title="Visit my Github" target="_blank" rel="noopener noreferrer"><img src="images/Github.jpeg" alt=""></a></li>
             <li class="display-list-item"><a href="#" title="Visit my Angellist"><img src="images/Angellist.jpeg" alt=""></a></li>
           </ul>
-        </div>
     </section>
     <!-- Adding the contact cards -->
-    <!-- <div class="main-cont-grid"> -->
     <section class="grid-container">
-      <div class="grid-item grid-item1 flex-item g1">
+      <div id="Portfolio" class="grid-item grid-item1 flex-item g1">
         <img class="image tonicA" src="images/Portfolio.svg" alt="Tonic">
         <img class="image desktop" src="images/desaktop-2.svg" alt="desktop">
       </div>
@@ -142,7 +139,7 @@
       </div>
       </section>
      <!-- About myself section -->
-     <section class="headline about-head default-display-flex flex-container-desktop">
+     <section class="headline about-head default-display-flex flex-container-desktop" id="About">
       <div class="headline about default-display-flex headline-content flex-desktop-item flex-desktop-item1">
         <h1 class="default-custom-fonts primary-text about-self">About Myself</h1>
         <p class="support-text-headline support-text-headline-about default-custom-fonts support-text-font margin-none">Hello I’m a software
@@ -202,7 +199,7 @@
     </section>
   <!--- Footer Section-->
   <footer class="footer-bg footer headline default-display-flex flex-foot-container">
-    <h2 class="contactme flex-foot-container-item">Contact Me</h2>
+    <h2 class="contactme flex-foot-container-item" id="Contact">Contact Me</h2>
     <p class="form-description flex-foot-container-item">If you have an application you are interested in developing, a feature that you need built or a
       project that needs coding. I’d love to help with it</p>
     <form class="form default-display-flex flex-foot-container-item" action="https://formspree.io/f/xbjqpynb" method="post">
@@ -216,5 +213,6 @@
     </form>
   </footer>
   <!--- End footer section-->
+  <script src="/script.js"></script>
   </body>
 </html>
